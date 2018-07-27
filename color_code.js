@@ -406,7 +406,7 @@ function convert_php(code){
 	
 	*/
 	var res=code.match(/<\?php(.|\n)*\?>/g);
-	console.log(res.length);
+	
 	if(res!=null){
 	
 	for(var i=0;i<res.length;i++){
